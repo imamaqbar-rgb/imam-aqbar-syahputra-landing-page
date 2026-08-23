@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imam Aqbar Syahputra — Mahasiswa Pemrograman Web</title>
+    <meta name="description" content="Landing page pribadi Imam Aqbar Syahputra, mahasiswa Pemrograman Web Unimed. Kenali profil, keahlian, portofolio, dan cara menghubungi saya.">
+
+    <!-- Open Graph Meta Tags (Bonus Point) -->
+    <meta property="og:title" content="Imam Aqbar Syahputra — Mahasiswa Pemrograman Web">
+    <meta property="og:description" content="Landing page pribadi mahasiswa Pemrograman Web Unimed. Kenali profil, keahlian, dan portofolio saya.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Ahmad+Fauzan+Ramadhan">
+    <meta property="og:url" content="https://example.com/landing-page-pribadi">
+</head>
+<body>
+
+    <header>
+        <nav aria-label="Navigasi utama">
+            <ul>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#keahlian">Keahlian</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===================== SECTION: TENTANG SAYA ===================== -->
+        <section id="tentang" aria-labelledby="judul-tentang">
+            <h1 id="judul-tentang">Halo, Saya Imam Aqbar Syahputra</h1>
+
+            <article>
+                <h2>Tentang Diri Saya</h2>
+
+                <figure>
+                    <img src="foto/senin.jpeg" alt="Foto profil Ahmad Fauzan Ramadhan sedang tersenyum mengenakan kemeja biru" width="300" height="300">
+                    <figcaption>Foto profil saya, diambil pada tahun <time datetime="2026">2026</time></figcaption>
+                </figure>
+
+                <p>
+                    Saya adalah mahasiswa aktif di Program Studi Ilmu Komputer,
+                    Universitas Negeri Medan (Unimed). Saat ini saya sedang menempuh mata kuliah
+                    <strong>Pemrograman Web</strong> dan sangat tertarik dengan pengembangan front-end maupun back-end.
+                </p>
+
+                <h3>Riwayat Pendidikan</h3>
+                <p>
+                    SDN 050715, Mtss Al-washliyah, Man 2 Langkat, Saya memulai perkuliahan di Unimed pada <time datetime="2025-08">Agustus 2025</time> dan
+                    diperkirakan lulus pada tahun <time datetime="2029">2029</time>.
+                </p>
+            </article>
+        </section>
+
+        <!-- ===================== SECTION: KEAHLIAN ===================== -->
+        <section id="keahlian" aria-labelledby="judul-keahlian">
+            <h2 id="judul-keahlian">Keahlian & Minat</h2>
+
+            <article>
+                <h3>Bermain game</h3>
+                <p>mobile legends, minecraft, dan clash of clans.</p>
+            </article>
+
+            <article>
+                <h3>Minat Bidang</h3>
+                <p>Pengembangan web, dan Development game.</p>
+            </article>
+        </section>
+
+        <!-- ===================== SECTION: PORTOFOLIO ===================== -->
+        <!-- ===================== SECTION: KONTAK / FORM ===================== -->
+        <section id="kontak" aria-labelledby="judul-kontak">
+            <h2 id="judul-kontak">Hubungi Saya</h2>
+
+            <aside>
+                <p>Silakan isi formulir di bawah ini jika Anda ingin terhubung dengan saya.</p>
+            </aside>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Formulir Kontak</legend>
+
+                    <p>
+                        <label for="nama">Nama Lengkap:</label><br>
+                        <input type="text" id="nama" name="nama" required minlength="3" placeholder="Masukkan nama lengkap Anda">
+                    </p>
+
+                    <p>
+                        <label for="email">Alamat Email:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="nama@contoh.com">
+                    </p>
+
+                    <p>
+                        <label for="tanggal_lahir">Tanggal Lahir:</label><br>
+                        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                    </p>
+
+                    <p>
+                        <label for="warna_favorit">Warna Favorit:</label><br>
+                        <input type="color" id="warna_favorit" name="warna_favorit" value="#3366cc">
+                    </p>
+
+                    <p>
+                        <label for="tingkat_minat">Tingkat Minat pada Web Development (1–10):</label><br>
+                        <input type="range" id="tingkat_minat" name="tingkat_minat" min="1" max="10" value="8">
+                    </p>
+
+                    <p>
+                        <label for="pesan">Pesan:</label><br>
+                        <textarea id="pesan" name="pesan" rows="5" cols="40" required minlength="10" placeholder="Tulis pesan Anda di sini..."></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Kirim Pesan</button>
+                        <button type="reset">Bersihkan Formulir</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <time datetime="2026">2026</time> Imam Aqbar Syahputra. Seluruh hak cipta dilindungi.</p>
+        <p>Dibuat untuk Tugas Rutin 1 — Mata Kuliah Pemrograman Web, Unimed.</p>
+    </footer>
+
+</body>
+</html>
